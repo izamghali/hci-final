@@ -1,0 +1,114 @@
+/* Flexbox station */
+.priority-card, .priority, .priority-div, .priority-h2 {
+    display: flex;
+}
+
+/* center station */
+.priority-card, .priority-h2, .priority {
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* First accent color */
+/* #F0ABC1; */
+
+/* Second accent color */
+/* #DED67E */
+
+/* Secondary color */
+/* #94DDDE; */
+
+/* Third color */
+/* #538491; */
+
+/* Text align center */
+.priority-card p, .priority-card h4, .priority-h2 {
+    text-align: center;
+}
+
+/* margin-bottom */
+.priority-card svg, .priority-card h4, .priority-card p {
+    margin-bottom: 1.5em;
+}
+
+/* priority */
+/* ===================== */
+.priority {
+    height: auto;
+    padding: 2em 2em;
+    flex-direction: column;
+}
+
+.priority-h2 h2 {
+    width: 10em;
+    height: 10px;
+    margin-block: 1.2em;
+}
+
+.priority-h2 {
+    padding-block: .7em;
+    position: absolute;
+    top: 3em;
+    left: 5em;
+    font-size: 5em;
+    color: white;
+    display: none;
+}
+
+/* .priority-h2:hover {
+    background-color: white;
+} */
+
+.priority-card {
+    /* border: solid red; */
+    width: 30em;
+    height: 20em;
+    flex-direction: column;
+    padding-inline: 3em;
+
+}
+
+.priority-card svg {
+    width: auto;
+    height: 7em;
+    color: black;
+}
+
+.priority-card p {
+    color: grey;
+}
+
+.about-banner-div {
+    width: 100vw;
+    height: 50vh;
+}
+
+.about-banner1 {
+    height: 100%;
+    width: 100vw;
+    object-fit: cover;
+    object-position: 0% 85%;
+}
+
+.about-layer {
+    width: 100vw;
+    height: 50vh;
+    background-color: black;
+    opacity: .6;
+}
+
+.about-banner {
+    transition-duration: 300ms;
+
+}
+
+.about-banner:hover {
+    filter: blur(3px);
+    transition-duration: 300ms;
+}

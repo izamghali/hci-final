@@ -1,0 +1,150 @@
+/* Flexbox Station */
+.login, .login-box, .login-personal, .login-personal-checkbox-div {
+    display: flex;
+}
+
+/* Base color */
+/* #538491 */
+
+/* Accent color */
+/* #94DDDE */
+
+/* text center */
+.login-other-terms, .login-other-or {
+    text-align: center;
+}
+
+/* Center station */
+.login, .login-box, .login-personal{
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    height: 70vh;
+}
+
+.login-personal {
+    flex-direction: column;
+}
+
+/* default size box */
+.login-personal-email, .login-personal-password, .login-personal-btn, .login-other-google, .login-other-facebook, .login-other-apple {
+    width: 30vw;
+    height: 5vh;
+    border: 1px black solid;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.login-personal-email, .login-personal-password {
+    /* border: 1px red; */
+    border-radius: 0px;
+}
+
+.login-personal-btn {
+    background-color: #94DDDE;
+    border: none;
+    color: white;
+}
+
+.login-personal-forgot-password {
+    margin-top: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 0.7em;
+}
+
+/* Hover station */
+.login-personal-btn:hover {
+    cursor: pointer;
+    background-color: white;
+    border: 2px #94DDDE solid;
+    color: #94DDDE;
+    transition: ease-in-out;
+    transition-duration: 300ms;
+}
+
+.login-other-google:hover, .login-other-facebook:hover, .login-other-apple:hover {
+    cursor: pointer;
+}
+
+
+/* margin-bottom */
+.login-personal-email, .login-personal-password, .login-personal-btn, .login-other-google, .login-other-facebook, .login-other-apple, .login-other p {
+    margin-bottom: 10px;
+}
+
+.login-other p {
+    margin-top: 10px;
+    color: grey;
+    font-size: 0.8em;
+}
+
+.login-other button {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.login-other button:hover {
+    border: none;
+    background-color: #94DDDE;
+}
+
+.login-other svg {
+    margin-right: 10px;
+}
+
+.login-personal-email, .login-personal-password {
+    padding-left: 5px;
+    border: 1px grey solid;
+}
+
+.login-box {
+    height: 60vh;
+    width: 30vw;
+    flex-direction: column;
+    /* border: 7px solid black; */
+    border-radius: 20px;
+}
+
+.login-other hr {
+    background-color: grey;
+    height: 2px;
+}
+
+.login-other-or {
+    padding: .7em 0px;
+}
+
+/* Checkbox */
+.login-personal-checkbox-div {
+    margin-block: 1.1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-personal-checkbox-div p {
+    font-size: .8em;
+    color: grey;
+}
+
+.login-personal-checkbox-div a {
+    color: rgb(35 102 255);
+}
+
+.login-personal-checkbox-div a:hover {
+    text-decoration: underline;
+}
+
+.login-personal-checkbox-div input {
+    height: 1.5em;
+    width: 1.5em;
+    margin-right: .7em;
+}
+
+.login-personal-checkbox-div input:hover {
+    background-color: grey;
+    cursor: pointer;
+}
